@@ -1,0 +1,67 @@
+/* CSS untuk formulir peminjaman */
+
+/* Style untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style untuk judul halaman */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style untuk form */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+/* Style untuk label */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Style untuk input */
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Style untuk tombol */
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Style untuk tautan */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
